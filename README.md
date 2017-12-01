@@ -1,0 +1,2 @@
+# rails-udemy
+Studying Rails
