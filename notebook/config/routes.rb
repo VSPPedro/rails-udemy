@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   
-  root 'home#index'
+  get '/bemvindo' => 'home#index'
   
-  get 'home/index'
+  root 'home#index'
 
   resources :phones
   resources :addresses
